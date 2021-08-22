@@ -1,23 +1,53 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Created by https://www.toptal.com/developers/gitignore/api/linux,react,dotenv,vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,react,dotenv,vscode
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+### dotenv ###
+.env.*
 
-# testing
-/coverage
+### Linux ###
+*~
 
-# production
-/build
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# KDE directory preferences
+.directory
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+build
+dist
+
+# cache
+.cache
+.eslintcache
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/linux,react,dotenv,vscode
+
