@@ -3,5 +3,6 @@ module.exports = {
   tabWidth: 2,
   semi: true,
   singleQuote: false,
-  bracketSpacing: true
-}
+  bracketSpacing: true,
+  endOfLine: "lf",
+};

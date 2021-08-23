@@ -44,7 +44,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "dist"),
       watch: {
-        ignored: "node_modules",
+        ignored: /node_modules/,
       },
     },
   },
